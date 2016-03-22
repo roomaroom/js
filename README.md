@@ -202,3 +202,18 @@ function BigAnimal() {
 
 alert( new BigAnimal().name ); // Мышь, получили this (а Годзилла пропал)
 ```
+##Создание методов в конструкторе
+```
+function User(name) {
+  this.name = name;
+
+  this.sayHi = function() {
+    alert( "Моё имя: " + this.name );
+  };
+}
+
+var ivan = new User("Иван");
+
+ivan.sayHi(); // Моё имя: Иван
+
+```
