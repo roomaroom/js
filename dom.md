@@ -29,6 +29,7 @@ jQuery is a fast and concise JavaScript Library that simplifies HTML document tr
 - It’s lightweight library (32kb minified and GZIPed)
 - Easy and fast HTML DOM Selection
 - Built to work on all modern browsers
+
 ##Installation
 Referencing to downloaded library
 ```<script src="jquery.js"></script>```
