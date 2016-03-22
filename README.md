@@ -217,3 +217,22 @@ var ivan = new User("Иван");
 ivan.sayHi(); // Моё имя: Иван
 
 ```
+##Локальные переменные
+```
+function User(firstName, lastName) {
+  // вспомогательная переменная
+  var phrase = "Привет";
+
+  //  вспомогательная вложенная функция
+  function getFullName() {
+      return firstName + " " + lastName;
+    }
+
+  this.sayHi = function() {
+    alert( phrase + ", " + getFullName() ); // использование
+  };
+}
+
+var vasya = new User("Вася", "Петров");
+vasya.sayHi(); // Привет, Вася Петров
+```
