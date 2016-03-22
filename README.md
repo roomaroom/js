@@ -9,7 +9,7 @@ user = JSON.parse(user);
 
 alert( user.friends[1] ); // 1
 ```
-#JSON-объекты ≠ JavaScript-объекты
+##JSON-объекты ≠ JavaScript-объекты
 ```
 {
   name: "Вася",       // ошибка: ключ name без кавычек!
@@ -19,7 +19,7 @@ alert( user.friends[1] ); // 1
 }
 ```
 
-# Сериализация, метод JSON.stringify
+## Сериализация, метод JSON.stringify
 ```
 var event = {
   title: "Конференция",
@@ -35,7 +35,7 @@ event = JSON.parse(str);
 
 #Методы объектов, this
 
-#Методы у объектов
+##Методы у объектов
 ```
 var user = {
   name: 'Василий',
