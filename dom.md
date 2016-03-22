@@ -40,3 +40,6 @@ Using jQuery from other sites (e.g. Google, Microsoft, etc.)
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
 </script>
 ```
+#Что такое AJAX?
+AJAX (аббревиатура от «Asynchronous Javascript And Xml») – технология обращения к серверу без перезагрузки страницы.
+http://www.w3schools.com/jquery/jquery_ajax_get_post.asp
