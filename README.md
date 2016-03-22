@@ -1,1 +1,8 @@
-# js
+# Формат JSON, метод toJSON
+```
+var user = '{ "name": "Вася", "age": 35, "isAdmin": false, "friends": [0,1,2,3] }';
+
+user = JSON.parse(user);
+
+alert( user.friends[1] ); // 1
+```
