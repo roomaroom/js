@@ -13,13 +13,24 @@ window.open('http://ya.ru');
 document.body.style.background = 'red';
 alert( 'Элемент BODY стал красным, а сейчас обратно вернётся' );
 document.body.style.background = '';
+document.getElementsByTagName("p");
+document.getElementById("main");
+document.getElementById("demo").innerHTML = 'text';
 ```
+http://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
 ##Объектная модель браузера (BOM)
 BOM – это объекты для работы с чем угодно, кроме документа.
 - Объект navigator содержит общую информацию о браузере и операционной системе. Особенно примечательны два свойства: navigator.userAgent – содержит информацию о браузере и navigator.platform – содержит информацию о платформе, позволяет различать Windows/Linux/Mac и т.п.
 - Объект location содержит информацию о текущем URL страницы и позволяет перенаправить посетителя на новый URL.
 - Функции alert/confirm/prompt – тоже входят в BOM.
 ```
+screen.width;
+screen.height;
+location.hostname;
+window.history.back();
+navigator.appCodeNamenavigator.platform
+navigator.platform
 alert( location.href ); // выведет текущий адрес
 ```
 
