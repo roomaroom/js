@@ -84,3 +84,22 @@ for (var key in menu) {
   alert( "Ключ: " + key + " значение: " + menu[key] );
 }
 ```
+##Копирование по значению
+Обычные значения: строки, числа, булевы значения, null/undefined при присваивании переменных копируются целиком
+```
+var message = "Привет";
+var phrase = message;
+```
+![Image] (https://learn.javascript.ru/article/object-reference/variable-copy-value.png)
+##Копирование по ссылке
+```
+var user = { name: "Вася" }; // в переменной - ссылка
+
+var admin = user; 
+```
+![Image](https://learn.javascript.ru/article/object-reference/variable-copy-reference.png)
+При копировании переменной с объектом – копируется эта ссылка, а объект по-прежнему остается в единственном экземпляре.
+```
+admin.name = 'Петя'; // поменяли данные через admin
+alert(user.name); // 'Петя', изменения видны в user
+```
