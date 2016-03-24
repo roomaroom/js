@@ -51,6 +51,25 @@ Using jQuery from other sites (e.g. Google, Microsoft, etc.)
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js">
 </script>
 ```
+###jQuery Philosophy
+- Find some HTML
+- Do something with it
+
+###Basic syntax is: $(selector).action() :
+
+- $ sign to define/access jQuery 
+- (selector) to "query (or find)" HTML elements 
+- jQuery action() to be performed on the element(s) 
+```
+$("p").hide();
+
+$(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+});
+```
+
 #Что такое AJAX?
 AJAX (аббревиатура от «Asynchronous Javascript And Xml») – технология обращения к серверу без перезагрузки страницы.
 http://www.w3schools.com/jquery/jquery_ajax_get_post.asp
