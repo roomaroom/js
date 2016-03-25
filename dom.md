@@ -74,6 +74,6 @@ $(document).ready(function(){
 });
 ```
 
-#Что такое AJAX?
-AJAX (аббревиатура от «Asynchronous Javascript And Xml») – технология обращения к серверу без перезагрузки страницы.
+#Що таке AJAX?
+AJAX (абревіатура від «Asynchronous Javascript And Xml») - технологія звернення до сервера без перезавантаження сторінки.
 http://www.w3schools.com/jquery/jquery_ajax_get_post.asp
